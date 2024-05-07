@@ -1,0 +1,7 @@
+Hi. This is case 0 
+Hi. This is case 1
+
+
+i=2 does not affect the switch case because it doesn't occur in the cases 
+
+2 iterations

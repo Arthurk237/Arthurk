@@ -1,0 +1,34 @@
+Start
+Initialize variables (option, operator, num 1, num 2)
+ Display Welcome to my command line calculator
+ Version : Assignment 1
+ Display Main Menu
+ read option - From user 
+    switch on option 
+        case B
+            read variables - from user ( num 1, num 2 & operator)
+            switch on operator 
+                case + 
+                    display result
+                case - 
+                    display result
+                case * 
+                    display result
+                case / 
+                    display result
+            Display Menu_B
+        case U 
+             display sorry
+            display menu_B
+        case A 
+              display sorry
+            display menu_B
+        case V 
+              display sorry
+           display menu_B
+        case E
+              Display Goodbye
+        default
+            display menu_B
+        While option != E 
+End

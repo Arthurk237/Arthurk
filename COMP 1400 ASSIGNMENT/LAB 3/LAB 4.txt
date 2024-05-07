@@ -1,0 +1,175 @@
+#include <stdio.h>
+
+int main() {
+printf("Hello!\n");
+printf("my name is **Arthur Kuate**\n");
+printf("my field of study is \"Bachelor of computer science\"\n");
+printf("I am currently on 40%% complete my comp1400 labs\n");
+printf("Thanks:)\n");
+
+    return 0;
+}
+
+
+
+
+
+
+
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    printf("Hello, \n\t World!\n");
+
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+#include <stdio.h>
+
+int main(void) {
+    float num1; 
+    float num2;
+    float sum;
+
+    printf("Enter first number: ");
+    scanf("%f", &num1);
+    printf("Enter second number: ");
+    scanf("%f", &num2);
+
+    sum = num1 + num2;
+    printf("---------------------------------------------\n");
+    printf("|                                           |\n");
+    printf("|   %lff + %lf = %2lf  |\n", num1, num2, sum);
+    printf("|                                           |\n");
+    printf("---------------------------------------------\n");
+
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+#include <stdio.h>
+
+int main(void) {
+    float num1; 
+    float num2;
+    float sum;
+
+    printf("Enter first number: ");
+    scanf("%f", &num1);
+    printf("Enter second number: ");
+    scanf("%f", &num2);
+
+    sum = num1 + num2;
+    printf("---------------------------------------------\n");
+    printf("|                                           |\n");
+    printf("|   %5.1f + %5.1f = %-10.1f                 |\n",num1, num2, sum);
+    printf("|                                           |\n");
+    printf("---------------------------------------------\n");
+
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#include <stdio.h>
+
+int main() {
+    printf(" x value \t expressions \t results\n");
+    printf("| x = 5\t|\t| y = x * 3 |\t| y = 15|\n");
+    printf("| x = 10|\t| y = x %% 5 |\t| y = 0 |\n");
+    printf("| x = 15|\t| y = x / 10|\t| y = 1 |\n");
+
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+#include <stdio.h>
+
+int main() {
+   float num1; 
+    float num2;
+    float sum;
+    float diff;
+    float prod;
+    float div;
+
+    printf("Enter first number: ");
+    scanf("%f", &num1);
+    printf("Enter second number: ");
+    scanf("%f", &num2);
+
+    sum = num1 + num2;
+    diff = num1 - num2;
+    prod = num1 * num2;
+    div = num1 / num2;
+    printf("---------------------------------------\n");
+    printf("|                                     |\n");
+    printf("|%11.1f  + %6.1f = %-12.1f |\n",num1, num2, sum);
+    printf("|%11.1f  - %6.1f = %-12.1f |\n",num1, num2,diff);
+    printf("|%11.1f  * %6.1f = %-12.1f |\n",num1, num2,prod);
+    printf("|%11.1f  / %6.1f = %-12.1f |\n",num1, num2,div);
+    printf("|                                     |\n");
+    printf("---------------------------------------\n");
+
+}
+
+
+
+
+
+
+#include <stdio.h>
+
+int main() {
+      printf("    *\n");
+      printf("   / \\\n");
+      printf("  /   \\\n");
+      printf(" /     \\\n");
+printf("***************\n");
+    printf("*  **     **   *\n");
+    printf("  *     **      *\n");
+    printf("   *   *******     *\n");
+    printf("    *               *\n");
+    printf("         *******     \n");
+    return 0;
+}

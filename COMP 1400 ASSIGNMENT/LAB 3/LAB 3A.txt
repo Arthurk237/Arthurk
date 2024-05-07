@@ -1,0 +1,18 @@
+1: Start
+2: starting range = 0
+3: ending range = 0
+4: Enter(Starting and ending range)
+5: For num from starting to ending range  
+6:     sum = 0
+7:     divider = 1
+8:     While ((num/2)>=divider DO
+9:         IF (num % divider == 0) Then
+10:            sum = sum + divider
+11:         End IF
+12:         divider = divider + 1
+13:     End While
+14:     IF (num == sum AND num!=1) Then
+15:         Print(num, " is a perfect number.")
+16:     End IF
+17: End For
+18: End

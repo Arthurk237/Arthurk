@@ -1,0 +1,87 @@
+#include <stdio.h>
+
+int main() {
+    int num;
+    int i;
+
+    printf("Enter an integer number: ");
+    scanf("%d", &num);
+
+    for (i = 2; i <= num / 2; ++i) {
+        if (num % i == 0) {
+            printf("%d is not a prime number.\n", num);
+            return 0;
+        }
+    }
+
+    if (num > 1) {
+        printf("%d is a prime number.\n", num);
+    } else {
+        printf("%d is not a prime number.\n", num);
+    }
+
+    return 0;
+}
+
+
+#include <stdio.h>
+
+int main() {
+    int N;
+    float sum;
+    float average;
+
+    do {
+        printf("Enter an integer between 1 and 1000: ");
+        scanf("%d", &N);
+    } while (N < 1 || N > 1000);
+
+    sum = N * (N + 1) / 2;
+
+    average = sum / N;
+
+    printf("The sum of all numbers up to %d is: %.lf\n", N, sum);
+    printf("The average of all numbers up to %d is: %.2lf\n", N, average);
+
+    return 0;
+}
+
+
+
+
+#include <stdio.h>
+
+int main() {
+    int dayoftheweek = 0; 
+    
+    for (int day = 1; day <= 31; day++) {
+        
+        switch (dayoftheweek) {
+            case 0:
+                printf("Day %d: Monday\n", day);
+                break;
+            case 1:
+                printf("Day %d: Tuesday\n", day);
+                break;
+            case 2:
+                printf("Day %d: Wednesday\n", day);
+                break;
+            case 3:
+                printf("Day %d: Thursday\n", day);
+                break;
+            case 4:
+                printf("Day %d: Friday\n", day);
+                break;
+            case 5:
+                printf("Day %d: Saturday\n", day);
+                break;
+            case 6:
+                printf("Day %d: Sunday\n", day);
+                break;
+        }
+        
+        dayoftheweek = (dayoftheweek + 1) % 7;
+    }
+    
+    return 0;
+}
